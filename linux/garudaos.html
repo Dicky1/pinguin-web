@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no" />
+    <title>Pinguin Dinus Repository</title>
+    <link rel="shortcut icon" type="image/png" href="favicon.png" />
+    <meta name="description" content="Doscom adalah sebuah komunitas open source yang berada dibawah naungan fakultas Ilmu Komputer Universitas Dian Nuswantoro" />
+    <meta name="keywords" content="doscom, open source, udinus, dinus, tealinux" />
+    <meta name="author" content="Diky Arga Doscom" />
+
+    <!-- CSS  -->
+    <!-- coba icon baru <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> -->
+    <link rel="stylesheet" href="https://cdn.materialdesignicons.com/1.4.57/css/materialdesignicons.min.css" media="all" rel="stylesheet" type="text/css" />
+    <link href="../css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link href="../css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+</head>
+
+<body>
+<div class="navbar-fixed">
+    <nav class="white" role="navigation">
+        <div class="nav-wrapper container">
+            <a id="logo-container" href="../index.html" class="brand-logo"><img src="../images/pinguin.png" height="35px" alt="logo coba"/></a>
+            <ul class="right hide-on-med-and-down table-of-contents">
+                <li ><a href="#beranda">Beranda</a>
+                </li>
+                <li><a href="#tealinuxos">TeaLinuxOS</a>
+                </li>
+                <li><a href="#distro">Distro</a>
+                </li>
+                <li ><a href="#kontak">Kontak</a>
+                </li>
+            </ul>
+            <ul id="nav-mobile" class="side-nav">
+                <li ><a href="#beranda">Beranda</a>
+                </li>
+                <li><a href="#tealinuxos">TeaLinuxOS</a>
+                </li>
+                <li><a href="#distro">Distro</a>
+                </li>
+                <li ><a href="#kontak">Kontak</a>
+                </li>
+            </ul>
+            <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="black-text mdi mdi-menu"></i></a>
+        </div>
+    </nav>
+</div>
+<div class="parallax-container valign-wrapper section scrollspy" id="beranda">
+    <div class="section no-pad-bot" style="position:none;">
+        <div class="container">
+            <div class="row">
+                <div class="col s12 m4 center center" style="margin-top:20px;">
+                    <img src="../images/garuda.png" alt="Logo Doscom - Dinus Open Source Community" width="230" height="230" />
+                </div>
+                <div class="col s12 m4">
+                    <h2 class="flow-text white-text col s12 m2 light center"><b>Garuda OS</b></h2>
+                </div>
+                <div class="col s12 m8">
+                    <a href="https://id.wikipedia.org/wiki/Garuda_OS" class="flow-text white-text col s12 m1 light center">id.wikipedia.org/wiki/garuda_OS</a>
+                    <br>
+                    <h6 style="margin-top:20px;" class="white-text col s12 m12">
+                        <p>
+                            Garuda OS adalah Distro Linux berbasis PCLinuxOS Fullmonty Editon buatan pengembang indonesia yang mendukung penggunaan dokumen format SNI (Standar Nasional Indonesia), aman dari gangguan virus komputer, stabilitasnya tinggi disertai dukungan bahasa indonesia dan dilengkapi dengan program dari berbagai macam kategori. Bisa diperoleh secara bebas tanpa harus mengeluarkan biaya untuk pembelian lisensi.
+                </div>
+            </div>
+            <br>
+        </div>
+    </div>
+    <div class="parallax orange"></div>
+</div>
+<div class="container">
+    <div class="section">
+        <div class="row center">
+            <h3><i class="mdi mdi-cloud-download green-text center"></i></h3>
+            <h4>Download TeaLinuxOS</h4>
+            <div class="row centers">
+                <div class="input-field col s10 m4 offset-s1 offset-m4  center">
+                    <select>
+                        <option value="" disabled selected>Choose your option</option>
+                        <option value="1">Tea Linux OS 4.0 “Oolong Tea”</option>
+                        <option value="1">Tea Linux OS 5.0 “Kukicha Tea”</option>
+                        <option value="2">Tea Linux OS 6.0 “Jasmine Tea”</option>
+                        <option value="3">Tea Linux OS 7.0 “Rosella Tea”</option>
+                    </select>
+                    <label>Versi TeaLinuxOS</label>
+                </div>
+            </div>
+            <div class="row col m8 offset-m2">
+                <div class="col s12 m6 center">
+                    <p class="light tea-button-download">32-bit</p>
+                </div>
+                <div class="col s12 m6 center">
+                    <p class="light tea-button-download">64-bit</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+<!--  Scripts-->
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="../js/materialize.js"></script>
+<script src="../js/init.js"></script>
+
+
+<script type="text/javascript">
+    $(document).ready(function(){
+        $('.scrollspy').scrollSpy();
+    });
+</script>
+<script type="text/javascript">
+    $(document).ready(function() {
+        $('select').material_select();
+    });
+</script>
+
+
+</body>
+
+</html>
+
